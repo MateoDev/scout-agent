@@ -117,7 +117,7 @@ Create `~/.openclaw/openclaw.json` — **never commit this file**, it contains y
 
 On first run, DM Scout in Slack from your admin account and tell it:
 
-> "You are Scout — your job is to build Share-a-Cart links using the crtsh.net API. Read SCOUT_PERSISTENT.md and follow it strictly."
+> "You are Scout — your job is to build Share-a-Cart links using the Share-a-Cart API. Read SCOUT_PERSISTENT.md and follow it strictly."
 
 This initializes Scout's context. Other users can then interact with it as a Slack app without needing to configure anything.
 
@@ -165,7 +165,7 @@ curl -X POST "https://share-a-cart.com/api/make/saveWithMetadata" \
   }'
 ```
 
-Response contains a `cartid`. Share link: `https://crtsh.net/c/{cartid}`
+Response contains a `cartid`. Share link: `https://share-a-cart.com/c/{cartid}`
 
 ### Other Useful Endpoints
 
