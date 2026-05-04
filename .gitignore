@@ -1,0 +1,15 @@
+# Ignore sensitive/personal files
+USER.md
+MEMORY.md
+memory/
+state/
+.openclaw/
+
+# Keep these
+!SOUL.md
+!AGENTS.md
+!IDENTITY.md
+!SCOUT_PERSISTENT.md
+!HEARTBEAT.md
+!TOOLS.md
+!BOOTSTRAP.md
